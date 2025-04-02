@@ -1,0 +1,93 @@
+/* Background */
+body.main-body {
+    background: url("/static/image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Dark overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+/* Container */
+.container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* Textarea */
+textarea {
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    padding: 12px 30px;
+    background: #00c9ff;
+    background: linear-gradient(90deg, #00c9ff, #92fe9d);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* Result */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+/* Logout button */
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    background: #ff4d4d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #ff1a1a;
+}
